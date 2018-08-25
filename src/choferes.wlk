@@ -9,7 +9,7 @@ object roxana {
 
 object gabriela {
 	method precioViaje(cliente, kms) { 
-		return cliente.precioPactadoPorKm() * kms*1.2
+		return cliente.precioPactadoPorKm()  * kms*1.2
 	}
 }
 
