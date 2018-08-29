@@ -1,4 +1,5 @@
 import clientes.*
+import oficina.*
 
 object roxana {
 	method precioViaje(cliente, kms) { 
@@ -41,6 +42,10 @@ object lucia{
 	method remplazar(chofer){
 		_chofer = chofer
 	
+	}
+	
+	method precioViaje(cliente,kms){
+		return _chofer.precioViaje(cliente,kms)
 	}
  
 	

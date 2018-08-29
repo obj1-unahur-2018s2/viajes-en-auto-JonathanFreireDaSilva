@@ -1,5 +1,5 @@
 import choferes.*
-
+import oficina.*
  
 object ludmila{
  
@@ -34,5 +34,15 @@ object teresa{
 
 object melina{
 	
+	var _cliente = null;
+	
+	
+	method remplaza(cliente){
+		   _cliente = cliente
+	}
+	
+	method precioPactadoPorKm(){
+		return _cliente.precioPactadoPorKm()-3
+			}
 	
 }
